@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="mycss.css">
+    </head>
+    <body>
+        <header>
+            <div id="header"><h1><strong>ONLINE QUIZ COMPETITION</strong></h1></div>
+            <h2><center><strong>REGISTRATION FROM</strong></center></h2>
+        </header>
+        <p1>Please fill all the details in CAPITAL LETTERS and correctly<span class="req">*</span></p1>
+        <div>
+                <a class="active" href="#register"></a>
+        </div>
+
+        <center><div id="registerform">
+                <br>
+                <br>
+                <div class="box">
+                <form action="connect.php" method="post">
+                    <table>
+                        <tr>
+                           <td>
+                                <br><br><label>First Name<span class="req">*</span></label><br><br>
+                                <input id="firstname" type="text" name="firstname" required><br>
+                           </td> 
+                           <td>
+                                <br><label>Last Name<span class="req">*</span></label><br><br>
+                                <input id="lastname" type="text" name="lastname" required><br>
+                           </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br><label>Email ID<span class="req">*</span></label><br>
+                                <input id="email" type="text" name="email" required><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br><label>Roll Number<span class="req">*</span></label><br><br>
+                                <input id="rollnum" type="text" name="rollnumber" required><br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <br><label>School Name<span class="req">*</span></label><br><br>
+                                <input id="scl" type="text" name="sclname" required><br>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <br><label>Age<span class="req">*</span></label><br><br>
+                                <input id="ag" type="number" name="age" min="0" max="30" required><br>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <br><label>Gender<span class="req">*</span></label><br><br>
+                                <input id="gen" type="radio" name="gender" value="male" checked> Male <br>
+                                <input id="gen" type="radio" name="gender" value="female">Female<br>
+    
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <br><label>Username<span class="req">*</span></label><br><br>
+                                <input id="username" type="text" name="username" required><br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <br><label>New Password<span class="req">*</span></label><br><br>
+                                <input id="pass1" type="password" name="newpass" required><br><br>
+                            </td>
+                            <td>
+                                <br><label>Confirm Password<span class="req">*</span></label><br><br>
+                                <input id="pass2" type="password"  name="confirmpass" required><br><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br><label>Address<span class="req">*</span></label><br><br>
+                                <textarea rows="5" cols="30" name="address"></textarea>
+    
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td><br><br><center><input id="register" type="submit" value="Register"></center></td>
+                            <td><br><br><input class="reset" type="reset" value="Reset"></td>
+                        </tr>
+                        
+                </table>
+                <br>
+                </form>
+            </div>
+            <br><br>
+            </div></center>
+
+            <a href="login.html"><input type="button" value="Go Back" style="float:left;"></a>
+    </body>
+
+
+</html>

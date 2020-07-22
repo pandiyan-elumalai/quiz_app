@@ -1,0 +1,110 @@
+#header{
+   background-color: rgb(81, 224, 100);
+   text-align:center;
+   display:block;
+   
+}
+#header #title{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    font-style: normal;
+}
+
+.topnav {
+    background-color: rgb(34, 175, 175);
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .row{
+      display: flex;
+  }
+#News{
+    background-color: white;
+    font-size: 20px;
+    float: left;
+    display: block;
+    margin-right: 0%;
+    width:40%;
+    }
+.req{
+    color: red;
+}
+#register,#forgot{
+    color:green;
+}
+#login{
+    color:green;
+}
+.reset{
+    color: red;
+}
+#helpform{
+    background-color:rgb(137, 214, 210)
+}
+#helpform .box{
+    background-color:white;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px blue;
+}
+
+#onlinequizform{
+    background-color:white
+}
+#onlinequizform .box{
+    background-color:rgb(230, 204, 204);
+    margin-left: 35%;
+    margin-right: 35%;
+    box-shadow: 1px 1px 1px 1px rgb(71, 130, 141);
+}
+
+
+#loginform{
+    background-color:white;
+}
+
+#loginform .box{
+    background-color: rgb(155, 241, 234);
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 5px 5px 5px 5px rgba(76, 119, 99, 0.877);
+}
+#registerform
+{
+    background-color: rgba(170, 238, 204, 0.842);
+}
+#registerform .box{
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 5px 5px 5px 5px rgb(173, 166, 166);
+}
+.vaccancy{
+    margin-bottom: 0%;
+    margin-top: 3%; 
+}
+  
+#footer{
+    display:block;
+    background-color: rgb(81, 224, 152);
+    text-align:center;
+    color: white;
+    width:150%;
+    padding-left:0%;
+ }

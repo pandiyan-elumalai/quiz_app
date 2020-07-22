@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="mycss.css">
+    </head>
+    <body>
+        <header>
+                <div id="header"><h1><strong>ONLINE QUIZ COMPETITION</strong></h1></div>
+                <h2><center><strong>LOGIN FROM</strong></center></h2>            
+        </header>
+        <div>
+            <a class="active" href="#login"></a>
+        </div>
+        <center>
+        <div id="loginform">
+            <br><br>
+            <div class="box">
+                        <h1><strong>Login!</strong></h1>
+                        Type:<select name="type" required class="smalltext">
+                            <option value="admin">Admin</option>
+                            <option value="student">Student</option>
+                        </select>
+                        <br><br>
+                        <form action="login.php" method="POST">
+                                <input type="text" name="username" id="username" placeholder="username" class="bigtext"required /><br><br>
+                                <input type="password" name="password" id="password" placeholder="password" required class="bigtext" /><br><br>
+                                <a href="onlinequiz.html"><input id="login" type="submit" value="Login"/></a><br><br>
+                                
+                                <input type="checkbox" name="remember" >Remember me <br><br>
+                                <a href="help.html">Forget password?</a>                        
+                                <a href="register.html">click here to register</a><br><br>
+                                
+                        </form><br>
+            </div>
+        </div>
+        </center>
+        <a href="home.html"><input type="button" value="HOME" style="float:left;"></a>
+    </body>
+</html>
